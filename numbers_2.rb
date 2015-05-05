@@ -26,3 +26,4 @@ while turns < attempts
 end
 puts "Rights #{correct}; Wrongs #{wrong}, Score #{score}%"
 puts "Total time #{duration} seconds"
+puts "#{duration/turns} seconds per problem"
