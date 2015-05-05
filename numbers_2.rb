@@ -1,9 +1,11 @@
 #!/usr/bin/env ruby
 
+puts "How many turns would you like?"
+attempts = gets.to_i
+
 turns = 0
 correct = 0
 wrong = 0
-attempts = 2
 start = Time.now
 
 while turns < attempts
