@@ -2,7 +2,7 @@
 
 puts "How many turns would you like?"
 attempts = gets.to_i
-
+attempts ||= 0
 turns = 0
 correct = 0
 wrong = 0
@@ -28,4 +28,4 @@ while turns < attempts
 end
 puts "Rights #{correct}; Wrongs #{wrong}, Score #{score}%"
 puts "Total time #{duration} seconds"
-puts "#{duration/turns} seconds per problem"
+puts "#{duration / turns} seconds per problem"
